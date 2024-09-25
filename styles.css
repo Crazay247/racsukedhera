@@ -90,7 +90,33 @@ nav ul li a:hover {
   border-radius: 10px;
   animation: zoomIn 2s ease-in-out;
 }
+.project-card {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 10px;
+  animation: zoomIn 2s ease-in-out;
+  transition: transform 0.3s ease;
+}
 
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  background-color: #FFD700;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFA500;
+}
 .project-card h3 {
   margin-top: 0;
 }
